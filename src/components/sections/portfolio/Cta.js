@@ -13,10 +13,9 @@ class Cta extends Component {
                             <div className="col-lg-8">
                                 <div className="cta-content text-center">
                                     <div className="section-title both-border mb-30">
-                                        <span className="title-tag">Get A Quote</span>
-                                        <h2 className="title">Feel Any Project For Business Consulting Get Started Us</h2>
+                                        <span className="title-tag">Back to Fund & Donation Page</span>
                                     </div>
-                                    <Link to="/contact" className="main-btn main-btn-3">Get Started</Link>
+                                    <Link to="/service" className="main-btn main-btn-3">Click Here</Link>
                                 </div>
                             </div>
                         </div>

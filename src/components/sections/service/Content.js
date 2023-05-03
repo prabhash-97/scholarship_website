@@ -11,9 +11,8 @@ class Content extends Component {
       <Fragment>
         <Workingprocess />
         <Service />
-        <Contact />
-        <Video />
         <Cta />
+        <Contact />
       </Fragment>
     );
   }

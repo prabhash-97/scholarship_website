@@ -12,13 +12,13 @@ import img8 from '../../../assets/img/project/12.jpg';
 import img9 from '../../../assets/img/project/13.jpg';
 
 const filtersbtn = [
-    { name: "All Project", value: "All Project", isActive: true },
-    { name: "Business", value: "Business", isActive: false },
-    { name: "Finaance", value: "Finaance", isActive: false },
-    { name: "Development", value: "Development", isActive: false },
-    { name: "Consulting", value: "Consulting", isActive: false },
-    { name: "Web", value: "Web", isActive: false },
-    { name: "Server", value: "Server", isActive: false },
+    { name: "All", value: "All", isActive: true },
+    { name: "01", value: "01", isActive: false },
+    { name: "02", value: "02", isActive: false },
+    { name: "03", value: "03", isActive: false },
+    { name: "04", value: "04", isActive: false },
+    { name: "05", value: "05", isActive: false },
+    { name: "06", value: "06", isActive: false },
 ];
 
 class Blocks extends Component {
@@ -28,55 +28,55 @@ class Blocks extends Component {
             projects: [
                 {
                 photo: img1,
-                origin: ["Business", "Consulting"],
+                origin: ["01"],
                 title:'Free Consulting',
                 text:'Join us for consultatoins,Join us for consultatoins,Join us for consultatoins',
             },
             {
                 photo: img2,
-                origin: ["Finaance", "Development", "Server"],
+                origin: ["02"],
                 title:'How To Business',
                 text:'Join us for consultatoins',
             },
             {
                 photo: img3,
-                origin: ["Finaance", "Web", "Business"],
+                origin: ["03"],
                 title:'Design Strategy',
                 text:'Join us for consultatoins',
             },
             {
                 photo: img4,
-                origin: ["Server", "Business", "Finaance"],
+                origin: ["04"],
                 title:'Research Strategy',
                 text:'Join us for consultatoins',
             },
             {
                 photo: img5,
-                origin: ["Development", "Web"],
+                origin: ["05"],
                 title:'IT Consultations',
                 text:'Join us for consultatoins',
             },
             {
                 photo: img6,
-                origin: ["Server","Consulting"],
+                origin: ["06"],
                 title:'Business Monitor',
                 text:'Join us for consultatoins',
             },
             {
                 photo: img7,
-                origin: ["Consulting","Finaance","Web"],
+                origin: ["01"],
                 title:'Free Consulting',
                 text:'Join us for consultatoins',
             },
             {
                 photo: img8,
-                origin: ["Business","Development"],
+                origin: ["02"],
                 title:'Business Monitor',
                 text:'Join us for consultatoins',
             },
             {
                 photo: img9,
-                origin: ["Finaance","Web"],
+                origin: ["03"],
                 title:'IT Consultations',
                 text:'Join us for consultatoins',
             },
@@ -92,7 +92,7 @@ class Blocks extends Component {
     }
     handleClick = name => {
         let filterProject = [];
-        if (name === "All Project") {
+        if (name === "All") {
             filterProject = this.state.projects;
 
         } else {

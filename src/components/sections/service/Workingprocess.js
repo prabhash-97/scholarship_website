@@ -5,22 +5,22 @@ import processbg2 from "../../../assets/img/video-bg/02.jpg";
 
 const processlist = [
   {
-    icon: "fal fa-phone",
-    number: "01",
-    title: "Contact Us",
-    text: "Opening meeting with you with a warm introduction about the audit. ",
+    icon: "fal fa-check",
+    number: "*",
+    title: "NONPROFITS",
+    text: "We are a nonprofit that supports mainly students by connecting them to donors. We're a partner, not just a platform.",
   },
   {
-    icon: "fal fa-coffee",
-    number: "02",
-    title: "Meet With Advisors",
-    text: "Meet each and every departments and Gather information about audit subject.",
+    icon: "fal fa-gift",
+    number: "*",
+    title: "DONORS",
+    text: "You feel great when you get updates about how your money is put to work by a trusted organization.",
   },
   {
-    icon: "fal fa-check-circle",
-    number: "03",
-    title: "Achieve Your Goals",
-    text: "Determine audit criteria and perform & document audit methodologies to identify controls and assess control risk and Finalize report",
+    icon: "fal fa-globe",
+    number: "*",
+    title: "OUR IMPACT",
+    text: "Nonprofits have the funding to listen to feedback and try new ways to work better.",
   },
 ];
 
@@ -34,12 +34,11 @@ class Workingprocess extends Component {
               <div className="process-text">
                 {/* Section Title */}
                 <div className="section-title left-border mb-30">
-                  <span className="title-tag">Working Process</span>
-                  <h2 className="title">How Do We Work</h2>
+                  <span className="title-tag">Donate to charity</span>
+                  <h2 className="title">How It Works</h2>
                 </div>
                 <p>
-                  Personalized Customer Service Solution For Clients Seeking
-                  Audit Services.
+                  Do something incredible today for future growth.
                 </p>
                 {/* process-loop */}
                 <div className="process-loop">

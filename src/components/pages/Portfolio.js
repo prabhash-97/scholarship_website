@@ -5,21 +5,26 @@ import Footer from '../layouts/Footer';
 import Breadcrumbs from '../layouts/Breadcrumbs';
 import Client from '../layouts/Client';
 import Content from '../sections/portfolio/Content';
+import { useEffect } from "react";
 
-
-class Portfolio extends Component {
-    render() {
+export default function Portfolio() {
+        useEffect(() => {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
         return (
             <Fragment>
                 <MetaTags>
-                    <title>RMS | Portfolio</title>
+                    <title>RMS | Fund List</title>
                     <meta
                         name="description"
                         content="#"
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumbs breadcrumb={{pagename:'Portfolio'}}/>
+                <Breadcrumbs breadcrumb={{pagename:'Fund List'}}/>
                 <Content/>
                {/* <section className="client-section">
                     <div className="container">
@@ -30,8 +35,5 @@ class Portfolio extends Component {
                 </section>*/}
                 <Footer/>
             </Fragment>
-        );
-    }
+  );
 }
-
-export default Portfolio;

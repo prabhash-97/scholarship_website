@@ -36,7 +36,7 @@ function App() {
         <Route path="/Secretarial" component={Secretarial} />
         <Route path="/Outsourcing" component={Outsourcing} />
         <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/portfoliodetail" component={Projects} />
         <Route path="/news" component={NewsPage} />
       </Switch>
     </Router>

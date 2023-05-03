@@ -13,20 +13,20 @@ import { map } from "jquery";
 const serviceblock = [
   {
     icon: icon2,
-    title: "Web development",
-    text: "Starting from basic website designs to highly complex business website apps and design solutions, we will customize the best of web development solutions for you.",
+    title: "Scholarships Make Education Easier to Access",
+    text: "No one should have their education limited due to a lack of household income. ",
   },
   {
     icon: icon4,
-    title: "UI/UX Design",
-    text: "In today’s age of information overload, we’ve always been attracted to finding better ways to simplify the communication of heavy content.",
+    title: "Students That Win Scholarships Can Access Extensive Support",
+    text: "Winning a scholarship nets you more than just a healthy bank balance.",
   },
   {
     icon: icon1,
-    title: "Mobile App Development",
-    text: "Intuitive designs combined with compelling user experience are what makes our apps stand ahead in the digital age.",
+    title: "Helping Students Focus on Learning",
+    text: "Getting a scholarship that eases the burden of college will help you focus more while studying.",
   },
-  {
+ /* {
     icon: icon3,
     title: "Software Development",
     text: "Software development ensures smooth experience with less wait time for your clients and decreases your business expenses. Try Hike Point of sale today!",
@@ -40,7 +40,7 @@ const serviceblock = [
     icon: icon1,
     title: "Branding",
     text: "Branding is one of the most crucial aspects of any business, large or small. An effective brand can give you a significant edge in today’s highly competitive market.",
-  },
+  },*/
 ];
 
 const serviceMain = [
@@ -71,9 +71,9 @@ class Service extends Component {
         <div className="container">
           {/* Section Title */}
           <div className="section-title text-center both-border mb-50">
-            <span className="title-tag">Most Features</span>
+            <span className="title-tag">Get to Know about our Funders</span>
             <h2 className="title">
-              We Provide Most Exclusive <br /> Service For Business
+            We Help Students Who Need Support <br /> Succeed In Their Education
             </h2>
           </div>
           {/* Services Boxes */}
