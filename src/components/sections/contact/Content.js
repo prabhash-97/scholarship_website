@@ -87,9 +87,9 @@ const Content = () => {
             <div className="col-lg-6 col-md-10 order-1 order-lg-2">
               <div className="contact-info-content">
                 <div className="section-title left-border mb-40">
-                  <span className="title-tag">Get In Touch</span>
+                  <span className="title-tag">Join with Us</span>
                   <h2 className="title">
-                    Need Any Help For Starting Business &amp; Consulting
+                    Supporting a Successful Eduaction
                   </h2>
                 </div>
                 <ul>
@@ -120,8 +120,8 @@ const Content = () => {
                   </li>
                   <li>
                     <i className="far fa-map-marker-alt" />
-                    No 202/A, Alawathugoda Estate, <br />{" "}
-                    &nbsp;&nbsp;&nbsp;&nbsp; Puwakwaththa, Dharga Town
+                    18/39, E.D. Dabare Mawatha, <br />{" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp; Colombo 05
                   </li>
                 </ul>
               </div>
@@ -132,7 +132,7 @@ const Content = () => {
           <div className="row no-gutters justify-content-center">
             <div className="col-10">
               <div className="section-title text-center mb-40">
-                <h2 className="title">Don’t hesitate To Contact Us</h2>
+                <h2 className="title">Send a Message To Contact Us</h2>
                 <br />
 
                 {feedShow && (

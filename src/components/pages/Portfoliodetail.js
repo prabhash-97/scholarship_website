@@ -11,14 +11,14 @@ class Portfoliodetail extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>RMS | Portfolio Detail</title>
+                    <title>RMS | Projects Detail</title>
                     <meta
                         name="description"
                         content="#"
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumbs breadcrumb={{pagename:'Portfolio Detail'}}/>
+                <Breadcrumbs breadcrumb={{pagename:'Projects Detail'}}/>
                 <Content/>
                 <section className="client-section">
                     <div className="container">

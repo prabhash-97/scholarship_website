@@ -16,11 +16,11 @@ export default function Service() {
   return (
     <Fragment>
       <MetaTags>
-        <title> RMS | Fund & Donations</title>
+        <title> RMS | Services</title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />
-      <Breadcrumbs breadcrumb={{ pagename: "Fund & Donations" }} />
+      <Breadcrumbs breadcrumb={{ pagename: "Services" }} />
       <Content />
       {/* <section className="client-section">
                     <div className="container">

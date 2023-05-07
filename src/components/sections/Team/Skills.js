@@ -44,7 +44,7 @@ class Skills extends Component {
                                                         value={percentage}
                                                         styles={buildStyles({
                                                             strokeLinecap: 'butt',
-                                                            pathColor: '#ff4a17',
+                                                            pathColor: '#10014e',
                                                             trailColor: '#e8e8e8',
                                                             backgroundColor: '#f5f5f5',
                                                         })}
@@ -66,7 +66,7 @@ class Skills extends Component {
                                                         value={percentage}
                                                         styles={buildStyles({
                                                             strokeLinecap: 'butt',
-                                                            pathColor: '#ff4a17',
+                                                            pathColor: '#10014e',
                                                             trailColor: '#e8e8e8',
                                                             backgroundColor: '#f5f5f5',
                                                         })}
@@ -88,7 +88,7 @@ class Skills extends Component {
                                                         value={percentage}
                                                         styles={buildStyles({
                                                             strokeLinecap: 'butt',
-                                                            pathColor: '#ff4a17',
+                                                            pathColor: '#10014e',
                                                             trailColor: '#e8e8e8',
                                                             backgroundColor: '#f5f5f5',
                                                         })}
@@ -110,7 +110,7 @@ class Skills extends Component {
                                                         value={percentage}
                                                         styles={buildStyles({
                                                             strokeLinecap: 'butt',
-                                                            pathColor: '#ff4a17',
+                                                            pathColor: '#10014e',
                                                             trailColor: '#e8e8e8',
                                                             backgroundColor: '#f5f5f5',
                                                         })}

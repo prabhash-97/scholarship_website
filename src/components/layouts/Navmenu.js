@@ -144,7 +144,7 @@ const navigationmenu = [
   {
     id: 6,
     linkText: "Projects",
-    link: "/projects",
+    link: "/portfoliodetail",
   },
   {
     id: 7,

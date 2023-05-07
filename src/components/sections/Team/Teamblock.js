@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import img1 from "../../../assets/img/team/img1.jpg";
 
 const teamblock = [
-  { img: img1, name: "Shilaj Lokusuriya", post: "Director" },
-  //   { img: img2, name: "Kenneth A. Spencer", post: "Business Developer" },
-  //   { img: img3, name: "David K. Marble", post: "Business Developer" },
-  //   { img: img4, name: "Raymond Grimes", post: "Business Developer" },
+  { img: img1, name: "Dr. Upali Fernando", post: "Director" },
+     { img: img1, name: "Percy Hemachandra", post: "Business Developer" },
+     { img: img1, name: "Peter Kuttapitiya", post: "Business Developer" },
+     { img: img1, name: "David Weerarathne", post: "Business Developer" },
 ];
 class Teamblock extends Component {
   render() {
@@ -16,15 +16,15 @@ class Teamblock extends Component {
         <div className="container">
           {/* Section Title */}
           <div className="section-title mb-0 both-border text-center">
-            <span className="title-tag">Meet Our Advisors</span>
+            <span className="title-tag">Meet Our Members</span>
             <h2 className="title">
-              We Have An Exclusive <br /> Team Member
+              We Have An Exclusive <br /> Team Members
             </h2>
           </div>
           {/* Team Boxes */}
           <div className="row team-members justify-content-center">
             {teamblock.map((item, i) => (
-              <div key={i} className="col-lg-12 col-md-4 col-6 col-tiny-12">
+              <div key={i} className="col-lg-3 col-md-4 col-6 col-tiny-12">
                 <div className="team-member">
                   <div className="member-picture-wrap">
                     <div className="member-picture">

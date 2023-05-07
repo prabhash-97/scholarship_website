@@ -54,13 +54,13 @@ class Advancedtab extends Component {
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="history">Company History</Nav.Link>
+                  <Nav.Link eventKey="history">Society History</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="businessgoals">Business Goals</Nav.Link>
+                  <Nav.Link eventKey="businessgoals">Our Goals</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="teammember">Team Member</Nav.Link>
+                  <Nav.Link eventKey="teammember">Team Members</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
