@@ -3,6 +3,7 @@ import About from "./About";
 import Advancedtab from "./Advancedtab";
 
 import Testimonials from "./Testimonials";
+import Cta from "../About/Cta";
 
 class Content extends Component {
   render() {
@@ -11,6 +12,7 @@ class Content extends Component {
         <About />
         <Advancedtab />
         <Testimonials />
+        <Cta/>
       </Fragment>
     );
   }

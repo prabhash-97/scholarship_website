@@ -3,7 +3,10 @@ import { Tab, Nav } from "react-bootstrap";
 
 import img from "../../../assets/img/tab-block.jpg";
 import imgGoal from "../../../assets/img/goal.png";
+//import img2 from "../../../assets/img//testimonial/2.png";
 import Teamblock from "../Team/Teamblock";
+//import img1 from "../../../assets/img/testimonial/ooo.png"
+
 
 const missiontab = [
   {
@@ -20,9 +23,9 @@ const missiontab = [
   },
 ];
 const historytab = [
-  { icon: "fas fa-check", text: "Company Secretarial" },
-  { icon: "fas fa-check", text: "Tax Advisory " },
-  { icon: "fas fa-check", text: "Business Outsourcing" },
+  { icon: "fas fa-check", text: "Mr. B M F Jayarathne" },
+  { icon: "fas fa-check", text: "Mr. J P C Chandrasena " },
+  { icon: "fas fa-check", text: "Mr. R J Kularthne" },
 ];
 const businessgoalstab = [
   {
@@ -57,7 +60,7 @@ class Advancedtab extends Component {
                   <Nav.Link eventKey="history">Society History</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="businessgoals">Our Goals</Nav.Link>
+                  <Nav.Link eventKey="businessgoals">Theme Song</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="teammember">Team Members</Nav.Link>
@@ -73,9 +76,7 @@ class Advancedtab extends Component {
                             Our Mission
                           </h2>
                           <p>
-                            <b>Our mission</b> is To exceed client expectation
-                            by providing premium solutions through a timely,
-                            efficient and innovative manner.
+                          add image 
                           </p>
                         </div>
                       </div>
@@ -85,13 +86,7 @@ class Advancedtab extends Component {
                             Our Vision
                           </h2>
                           <p>
-                            <b>Our vision</b> is To be the most highly respected
-                            professional firm in the country. &nbsp; &nbsp;
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                           add image 
                           </p>
                         </div>
                       </div>
@@ -105,15 +100,13 @@ class Advancedtab extends Component {
                         <div className="block-text">
                           <h2 className="title">Then to Now</h2>
                           <p>
-                            RMS has been operating in Sri Lanka since 2009.
-                            Today we have a portfolio of 100 clients located
-                            across the country. We have experience in diverse
-                            industries including textile, construction, hotels,
-                            software, retail, manufacturing, financial services
-                            and charity. The firm provides services that assist
-                            the growth and competitiveness of businesses,
-                            including
+                           Based on Ranasgalle thero's saying, Mr. B M Jayarathne had started this scholarship.
+                           The main objective of that was to give support to students in their education. 
+                           To give education to all children not only based on money or social status three people came forward 
+                           to build this scholarship society. 
+                           They started this society 31 st of July 1920 in Jinaraja Vidyalay Kollupitiya.
                           </p>
+                          // add imgae saying
                           <ul>
                             {historytab.map((item, i) => (
                               <li key={i}>
@@ -126,7 +119,8 @@ class Advancedtab extends Component {
                       </div>
                       <div className="col-lg-6 col-md-10 order-1 order-lg-2">
                         <div className="block-image">
-                          <img src={img} alt="" />
+                          <img src={img} alt="" /> 
+                          
                         </div>
                       </div>
                     </div>
@@ -142,12 +136,9 @@ class Advancedtab extends Component {
                       </div>
                       <div className="col-lg-6 col-md-10">
                         <div className="block-text">
-                          <h2 className="title">Our Goals</h2>
+                          <h2 className="title">Theme Song</h2>
                           <p>
-                            Auditing is a means of evaluating the effectiveness
-                            of a company’s internal controls. Maintaining an
-                            effective system of internal controls is vital for
-                            achieving a company’s business goals. Our goals are,
+                            image
                           </p>
                           <ul>
                             {businessgoalstab.map((item, i) => (
