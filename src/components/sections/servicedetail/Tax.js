@@ -15,7 +15,7 @@ export default function Tax() {
   return (
     <Fragment>
       <MetaTags>
-        <title>RMS | Services </title>
+        <title>RMS | Histoty </title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />
@@ -25,7 +25,7 @@ export default function Tax() {
             {/* Dettails Content */}
             <div className="col-lg-8">
               <div className="service-details-content">
-                <h2 className="title">Tax Consulting & Advisory Service</h2>
+                <h2 className="title">How We Start???</h2>
                 <p>
                   Sri Lankan taxable persons are often plagued with worries
                   involving tax compliance and ensuring that all tax forms are
@@ -39,12 +39,11 @@ export default function Tax() {
                 <ul className="circle-check-list mt-50 mb-50">
                   <li>
                     <i className="fas fa-check" />
-                    Strategic Tax Planning and Compliance Reporting
+                    Start Members
                   </li>
                   <li>
                     <i className="fas fa-check" />
-                    Direct tax Compliance for corporate, non-corporate and
-                    individual.
+                    Start Year and Place
                   </li>
                   <li>
                     <i className="fas fa-check" />

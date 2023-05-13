@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import ctabg from "../../assets/img/sidebar/cta.jpg";
 
 const servicelist = [
-  { title: "Company Secretarial Servcies", route: "/Secretarial" },
-  { title: "Tax Consulting & Advisory", route: "/Tax" },
-  { title: "Business Outsourcing", route: "/Outsourcing" },
+  { title: "Starting Members", route: "/Secretarial" },
+  { title: "Members Past Away Now", route: "/Tax" },
+  { title: "Past Anniversaires", route: "/Outsourcing" },
 ];
 
 class Servicesidebar extends Component {
@@ -15,7 +15,7 @@ class Servicesidebar extends Component {
       <div className="sidebar">
         {/* Services List Widget */}
         <div className="widget cat-widget">
-          <h4 className="widget-title">Main Service List</h4>
+          <h4 className="widget-title">History</h4>
           <ul>
             {servicelist.map((item, i) => (
               <li key={i}>
@@ -35,7 +35,7 @@ class Servicesidebar extends Component {
           className="widget cta-widget"
           style={{ backgroundImage: "url(" + ctabg + ")" }}
         >
-          <h4 className="title">Need Any Consultations</h4>
+          <h4 className="title">Join With Us</h4>
           <Link to="/contact" className="main-btn">
             Send Message
           </Link>

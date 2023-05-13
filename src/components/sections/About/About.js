@@ -18,17 +18,13 @@ class About extends Component {
                                     <h2 className="title">We are a Great Family </h2>
                                 </div>
                                 <p className="mb-25">
-                                    Our Partners and staff members are extremely trustworthy, loyal and
-                                    committed resources and we have a high degree of confidence in every one of them.
-                                </p>
-                                <p>
-                                    We have experience in handling work of an extremely sensitive nature for our existing clientele
-                                    including Payroll and hence is well
-                                    experienced in maintaining confidentiality and handling work with a high degree of care.
+                                    In 2023 we have completed the 100th anniversary of our journey. we are non profit soceiy. 
+                                    we all do this for  only support students to therir education. we have strong 
+                                    relations and collaboration all over the country and we hope moreexapnd our network with more relatives. 
                                 </p>
                                 <ul className="about-list">
-                                    <li> <i className="far fa-check" /> Professional Service</li>
-                                    <li> <i className="far fa-check" /> High Quality with Integrity</li>
+                                    <li> <i className="far fa-check" /> Supportive</li>
+                                    <li> <i className="far fa-check" /> Trustworthy</li>
                                 </ul>
 
                             </div>
