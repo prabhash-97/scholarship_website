@@ -140,14 +140,6 @@ class Advancedtab extends Component {
                           <p>
                             image
                           </p>
-                          <ul>
-                            {businessgoalstab.map((item, i) => (
-                              <li key={i}>
-                                <i className={item.icon} />
-                                {item.text}
-                              </li>
-                            ))}
-                          </ul>
                         </div>
                       </div>
                     </div>
