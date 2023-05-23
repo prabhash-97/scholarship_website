@@ -3,10 +3,12 @@ import { Tab, Nav } from "react-bootstrap";
 
 import img from "../../../assets/img/tab-block.jpg";
 import imgGoal from "../../../assets/img/goal.png";
-//import img2 from "../../../assets/img//testimonial/2.png";
+import img2 from "../../../assets/img/2_.png";
 import Teamblock from "../Team/Teamblock";
-//import img1 from "../../../assets/img/testimonial/ooo.png"
-
+import img1 from "../../../assets/img/1_.png"
+import img3 from "../../../assets/img/Capture.PNG";
+import img4 from "../../../assets/img/theme song.PNG";
+import song from "../../../assets/AUDIO-2023-04-28-10-27-18.mp3";
 
 const missiontab = [
   {
@@ -40,6 +42,37 @@ const businessgoalstab = [
 ];
 
 class Advancedtab extends Component {
+
+  // Create state
+  state = {
+  
+    // Get audio file in a variable
+    audio: new Audio(song),
+  
+    // Set initial state of song
+    isPlaying: false,
+  };
+  
+  // Main function to handle both play and pause operations
+  playPause = () => {
+  
+    // Get state of song
+    let isPlaying = this.state.isPlaying;
+  
+    if (isPlaying) {
+      // Pause the song if it is playing
+      this.state.audio.pause();
+    } else {
+  
+      // Play the song if it is paused
+      this.state.audio.play();
+    }
+  
+    // Change the state of song
+    this.setState({ isPlaying: !isPlaying });
+  };
+
+
   render() {
     return (
       <section
@@ -71,23 +104,15 @@ class Advancedtab extends Component {
                   <div className="tab-text-block">
                     <div className="row align-items-center justify-content-center">
                       <div className="col-lg-6 col-md-10">
-                        <div className="block-text">
-                          <h2 className="title" style={{ textAlign: "center" }}>
-                            Our Mission
-                          </h2>
-                          <p>
-                          add image 
-                          </p>
+                      <div className="block-image">
+                          <img src={img1} alt="" /> 
+                          
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-10">
-                        <div className="block-text">
-                          <h2 className="title" style={{ textAlign: "center" }}>
-                            Our Vision
-                          </h2>
-                          <p>
-                           add image 
-                          </p>
+                      <div className="block-image">
+                          <img src={img2} alt="" /> 
+                          
                         </div>
                       </div>
                     </div>
@@ -100,13 +125,18 @@ class Advancedtab extends Component {
                         <div className="block-text">
                           <h2 className="title">Then to Now</h2>
                           <p>
+                          <img src={img3} alt="" /> 
+                          </p>
+                          <p>
                            Based on Ranasgalle thero's saying, Mr. B M Jayarathne had started this scholarship.
                            The main objective of that was to give support to students in their education. 
                            To give education to all children not only based on money or social status three people came forward 
                            to build this scholarship society. 
                            They started this society 31 st of July 1920 in Jinaraja Vidyalay Kollupitiya.
+                          <p style={{color: "black", fontWeight: "bold"}}>
+                            Founding members :
                           </p>
-                          // add imgae saying
+                          </p>
                           <ul>
                             {historytab.map((item, i) => (
                               <li key={i}>
@@ -137,9 +167,17 @@ class Advancedtab extends Component {
                       <div className="col-lg-6 col-md-10">
                         <div className="block-text">
                           <h2 className="title">Theme Song</h2>
-                          <p>
-                            image
+                          <div className="block-image">
+                            <img src={img4} alt="" />
+                            <p>
+                            {this.state.isPlaying ? 
+                            "Click again to Paused the song" : 
+                            "Listen to the theme song"}
                           </p>
+                          <button style={{backgroundColor: "black", color: "white", font: "20px", padding: "10px 60px", margin: "10px 0px"}} onClick={this.playPause}>
+                          <i class="fa fa-music" aria-hidden="true"></i>
+                          </button>    
+                          </div>
                         </div>
                       </div>
                     </div>

@@ -5,7 +5,7 @@ import ctabg from "../../assets/img/sidebar/cta.jpg";
 
 const servicelist = [
   { title: "Starting Members", route: "/Secretarial" },
-  { title: "Members Past Away Now", route: "/Tax" },
+  { title: "How we Start???", route: "/Tax" },
   { title: "Past Anniversaires", route: "/Outsourcing" },
 ];
 
