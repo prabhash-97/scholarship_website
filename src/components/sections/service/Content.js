@@ -12,7 +12,6 @@ class Content extends Component {
         <Workingprocess />
         <Service />
         <Cta />
-        <Contact />
       </Fragment>
     );
   }

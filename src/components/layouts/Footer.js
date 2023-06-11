@@ -38,46 +38,30 @@ class Footer extends Component {
                     <img src={logo} alt="" />
                   </div>
                   <p>
-                    Power of choice is untrammelled &amp; when nothing prevents
-                    our being able
+                    Help each other &amp; for better future
                   </p>
                   <ul className="social-links">
                     <li>
-                      <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-instagram" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-behance" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-dribbble" />
-                      </Link>
+                      
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-8 col-sm-7 order-2">
                 <div className="widget newsletter-widget">
-                  <h4 className="widget-title">Subscribe Our Newsletters</h4>
+                  <h4 className="widget-title">Join with Us</h4>
                   <div className="newsletter-form">
                     <form action="#">
-                      <input type="email" placeholder="Enter Your Email" />
+                    Via Social Media : <a
+                        href=" "
+                        target="_blank"
+                      >
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                      <br/>
+                      Via Email : lankashishyadara@test.com
                       <button type="submit" className="main-btn">
-                        Subscribe Now
+                        <Link className="main-btn main-btn-3" to="/contact">Contact Us</Link>
                       </button>
                     </form>
                   </div>
@@ -88,19 +72,19 @@ class Footer extends Component {
                   <h4 className="widget-title">Quick Links</h4>
                   <ul>
                     <li>
-                      <Link to="/about">Company History</Link>
+                      <Link to="/about">Our History</Link>
                     </li>
                     <li>
                       <Link to="/contact">Contact Us</Link>
                     </li>
                     <li>
-                      <Link to="/service">Popular Services</Link>
+                      <Link to="/service">Fund & Donations</Link>
                     </li>
                     <li>
-                      <Link to="/about">About Company</Link>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/careers">Careers</Link>
+                      <Link to="/news">News</Link>
                     </li>
                   </ul>
                 </div>
@@ -109,21 +93,21 @@ class Footer extends Component {
                 <div className="row">
                   <div className="col-lg-6 col-sm-6">
                     <div className="widget nav-widget">
-                      <h4 className="widget-title">Services</h4>
+                      <h4 className="widget-title">History</h4>
                       <ul>
                         <li>
                           <Link to="/Secretarial">
-                            Company Secretarial Servcies
+                            Founders
                           </Link>
                         </li>
                         <li>
-                          <Link to="/Tax">Tax Consulting & Advisory</Link>
+                          <Link to="/Tax">How We Start</Link>
                         </li>
                         <li>
-                          <Link to="/Outsourcing">Business Outsourcing</Link>
+                          <Link to="/portfolio">Fund List</Link>
                         </li>
                         <li>
-                          <Link to="/service">Software Development</Link>
+                          <Link to="/portfoliodetail">On Going Projects</Link>
                         </li>
                       </ul>
                     </div>
@@ -146,28 +130,27 @@ class Footer extends Component {
                           </Link>
                         </li>*/}
                         <li>
-                          <a href="tel: +94 77 994 7204">
+                          <a href="tel: +94 00 000 0000">
                             <i className="far fa-phone" />
-                            +94 77 994 7204
+                            +94 00 000 0000
                           </a>
                         </li>
                         <li>
-                          <a href="tel: +94 77 994 7204">
+                          <a href="tel: +94 00 000 0000">
                             <i className="far fa-phone" />
-                            +94 34 227 2529
+                            +94 00 000 0000
                           </a>
                         </li>
                         <li>
-                          <Link to="contact@rmservices.com">
+                          <Link to="contact@test.com">
                             <i className="far fa-envelope-open" />{" "}
-                            info@rmssec.com
+                            info@test.com
                           </Link>
                         </li>
                         <li>
-                          <i className="far fa-map-marker-alt" /> No 202/A,
-                          Alawathugoda Estate, <br />{" "}
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Puwakwaththa, Dharga
-                          Town
+                          <i className="far fa-map-marker-alt" /> 18/39,
+                          <br />{" "}
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E.D. Dabare Mawatha, Colombo 05
                         </li>
                       </ul>
                     </div>
@@ -179,9 +162,9 @@ class Footer extends Component {
           <div className="footer-copyright">
             <p className="copyright-text">
               <span>
-                Copyright@<Link to="#">Codernet</Link> 2021
+                Copyright@<Link to="#">kprabhash</Link> 2023
               </span>
-              <span>All Right Reserved Design By Codernet</span>
+              <span>All Right Reserved Design By kprabhash</span>
             </p>
             <Link
               to="#"

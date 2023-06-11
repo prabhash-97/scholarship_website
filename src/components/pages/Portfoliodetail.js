@@ -11,7 +11,7 @@ class Portfoliodetail extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>RMS | Projects Detail</title>
+                    <title>Projects Detail</title>
                     <meta
                         name="description"
                         content="#"
@@ -20,13 +20,6 @@ class Portfoliodetail extends Component {
                 <Header/>
                 <Breadcrumbs breadcrumb={{pagename:'Projects Detail'}}/>
                 <Content/>
-                <section className="client-section">
-                    <div className="container">
-                        <div className="client-slider section-gap">
-                            <Client />
-                        </div>
-                    </div>
-                </section>
                 <Footer/>
             </Fragment>
         );

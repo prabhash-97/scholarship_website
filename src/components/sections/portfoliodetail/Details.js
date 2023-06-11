@@ -24,7 +24,7 @@ class Details extends Component {
                         <div className="row">
                             <div className="col-lg-8 order-2 order-lg-2">
                                 <div className="content">
-                                    <h2>Business Strategy</h2>
+                                    <h2>Current status of our Society</h2>
                                     <p className="mb-40">
                                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                                         laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
@@ -50,16 +50,16 @@ class Details extends Component {
                                 <div className="details">
                                     <ul>
                                         <li>
-                                            <h3>Project Name</h3>
-                                            <p>Business Strategy</p>
+                                            <h3>21</h3>
+                                            <p>A/l Students Currently receiving scholarships</p>
                                         </li>
                                         <li>
-                                            <h3>Clients Name</h3>
-                                            <p>Logan Parkinson</p>
+                                            <h3>42</h3>
+                                            <p>O/l Students Currently receiving scholarships</p>
                                         </li>
                                         <li>
-                                            <h3>Project Date</h3>
-                                            <p>25 Aug 2020</p>
+                                            <h3>51</h3>
+                                            <p>Universities Students Currently receiving scholarships</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -73,24 +73,6 @@ class Details extends Component {
                                             </div>
                                         ))}
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-12 order-4">
-                                <div className="content">
-                                    <p>
-                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising
-                                        pain was born and I will give you a complete account of the system, and expound the
-                                        actual teachings of the great explorer of the truth, the master-builder of human
-                                        happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure,
-                                        but because those who do not know how to pursue pleasure rationally encounter
-                                        consequences that are extremely painful. Nor again is there anyone who loves or pursues
-                                        or desires to obtain pain of itself, because it is pain, but because occasionally
-                                        circumstances occur in which toil and pain can procure him some great pleasure. To take
-                                        a trivial example, which of us ever undertakes laborious physical exercise, except to
-                                        obtain some advantage from it? But who has any right to find fault with a man who
-                                        chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain
-                                        that produces no resultant pleasure
-                                    </p>
                                 </div>
                             </div>
                         </div>

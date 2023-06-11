@@ -15,7 +15,7 @@ export default function Outsourcing() {
   return (
     <Fragment>
       <MetaTags>
-        <title>RMS | History </title>
+        <title>History </title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />
@@ -27,35 +27,13 @@ export default function Outsourcing() {
               <div className="service-details-content">
                 <h2 className="title">Past Anniversaires</h2>
                 <p>
-                  discription
-                </p>
-
-                <p>
-                  more
+                We celebrated our 100th anniversary last April 29th
+                <br/>(1920-2020)
                 </p>
                 <ul className="circle-check-list mt-50 mb-50">
                   <li>
                     <i className="fas fa-check" />
-                    year/ doc/image
-                  </li>
-                  <li>
-                    <i className="fas fa-check" />
-                    year/ doc/image
-                  </li>
-                </ul>
-
-                <ul className="circle-check-list mt-50 mb-50">
-                  <li>
-                    <i className="fas fa-check" />
-                    year/ doc/image
-                  </li>
-                  <li>
-                    <i className="fas fa-check" />
-                    year/ doc/image
-                  </li>
-                  <li>
-                    <i className="fas fa-check" />
-                    year/ doc/image
+                    
                   </li>
                 </ul>
 

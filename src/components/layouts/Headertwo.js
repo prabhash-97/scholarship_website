@@ -80,20 +80,20 @@ class Headertwo extends Component {
                       <i className="far fa-phone" />
                       +94 34 227 2529
                     </Link>*/}
-                    <a href="tel: +94 77 994 7204">
+                    <a href="tel: +94 00 000 0000">
                       <i className="far fa-phone" />
-                      +94 34 227 2529
+                      +94 00 000 0000
                     </a>
                   </li>
                   <li>
                     <Link to="#">
                       <i className="far fa-envelope-open" />
-                      info@rmssec.com
+                      lankass@.com
                     </Link>
                   </li>
                   <li>
                     <i className="far fa-map-marker-alt" />
-                    No 202/A, Alawathugoda Estate, Puwakwaththa, Dharga Town
+                    No 000/A, Nugegoda
                   </li>
                 </ul>
                 {/* Social Links */}

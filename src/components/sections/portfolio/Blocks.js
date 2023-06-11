@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import img1 from '../../../assets/img/project/05.jpg';
-import img2 from '../../../assets/img/project/03.jpg';
-import img3 from '../../../assets/img/project/14.jpg';
-import img4 from '../../../assets/img/project/02.jpg';
-import img5 from '../../../assets/img/project/10.jpg';
-import img6 from '../../../assets/img/project/11.jpg';
-import img7 from '../../../assets/img/project/01.jpg';
-import img8 from '../../../assets/img/project/12.jpg';
-import img9 from '../../../assets/img/project/13.jpg';
+import img1 from '../../../assets/img/project/01.jpg';
+import img2 from '../../../assets/img/project/02.jpg';
+import img3 from '../../../assets/img/project/03.jpg';
+import img4 from '../../../assets/img/project/04.jpg';
+import img5 from '../../../assets/img/project/05.jpg';
+import img6 from '../../../assets/img/project/06.jpg';
+import img7 from '../../../assets/img/project/07.jpg';
+import img8 from '../../../assets/img/project/08.jpg';
+import img9 from '../../../assets/img/project/09.jpg';
 
 const filtersbtn = [
     { name: "All", value: "All", isActive: true },
@@ -19,6 +19,9 @@ const filtersbtn = [
     { name: "04", value: "04", isActive: false },
     { name: "05", value: "05", isActive: false },
     { name: "06", value: "06", isActive: false },
+    { name: "07", value: "07", isActive: false },
+    { name: "08", value: "08", isActive: false },
+    { name: "09", value: "09", isActive: false },
 ];
 
 class Blocks extends Component {
@@ -29,56 +32,38 @@ class Blocks extends Component {
                 {
                 photo: img1,
                 origin: ["01"],
-                title:'Free Consulting',
-                text:'Join us for consultatoins,Join us for consultatoins,Join us for consultatoins',
             },
             {
                 photo: img2,
                 origin: ["02"],
-                title:'How To Business',
-                text:'Join us for consultatoins',
             },
             {
                 photo: img3,
                 origin: ["03"],
-                title:'Design Strategy',
-                text:'Join us for consultatoins',
             },
             {
                 photo: img4,
                 origin: ["04"],
-                title:'Research Strategy',
-                text:'Join us for consultatoins',
             },
             {
                 photo: img5,
                 origin: ["05"],
-                title:'IT Consultations',
-                text:'Join us for consultatoins',
             },
             {
                 photo: img6,
-                origin: ["06"],
-                title:'Business Monitor',
-                text:'Join us for consultatoins',
+                origin: ["06"]
             },
             {
                 photo: img7,
-                origin: ["01"],
-                title:'Free Consulting',
-                text:'Join us for consultatoins',
+                origin: ["07"],
             },
             {
                 photo: img8,
-                origin: ["02"],
-                title:'Business Monitor',
-                text:'Join us for consultatoins',
+                origin: ["08"]
             },
             {
                 photo: img9,
-                origin: ["03"],
-                title:'IT Consultations',
-                text:'Join us for consultatoins',
+                origin: ["09"]
             },
             ],
             filterProject: []
@@ -115,11 +100,6 @@ class Blocks extends Component {
                 <div className="project-box hover-style">
                     <div className="project-thumb">
                         <div className="thumb bg-img-c" style={{ backgroundImage: "url(" + project.photo + ")" }} />
-                    </div>
-                    <div className="project-desc text-center">
-                        <h4><Link>{project.title}</Link></h4>
-                        <p>{project.text}</p>
-
                     </div>
                 </div>
             </div>

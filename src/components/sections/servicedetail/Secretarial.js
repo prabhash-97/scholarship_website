@@ -4,7 +4,9 @@ import Header from "../../layouts/Header";
 import Footer from "../../layouts/Footer";
 import Sidebar from "../../layouts/Servicesidebar";
 import { useEffect } from "react";
-import imgP1 from "../../../assets/img/1_.png"
+import imgP1 from "../../../assets/img/T1.PNG"
+import imgP2 from "../../../assets/img/T2.PNG"
+import imgP3 from "../../../assets/img/T3.PNG"
 
 export default function Secretarial() {
   useEffect(() => {
@@ -16,7 +18,7 @@ export default function Secretarial() {
   return (
     <Fragment>
       <MetaTags>
-        <title>RMS | History </title>
+        <title>History </title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />
@@ -28,35 +30,21 @@ export default function Secretarial() {
               <div className="service-details-content">
                 <h2 className="title">Founders</h2>
                 <p>
-                  how found
+                Those who have given their support and time to build this society in the past.
                 </p>
                 <ul className="circle-check-list mt-50 mb-50">
-                <i className="fas fa-check" />
                   <li>
-                    <p>Name</p>
-                    <img src={imgP1} alt="" /> 
+                    <p style={{fontSize:"20px", color:"black", fontWeight:"bold"}}>B. M. F. Jayarathne</p>
+                    President (1920-1932) <br/> Vice President (1936-1937)
+                    <img src={imgP2} alt="" /> 
                   </li>
-                  <i className="fas fa-check" />
                   <li>
-                    <p>Name</p>
-                    <img src={imgP1} alt="" />
-                  </li>
-                  <i className="fas fa-check" />
-                  <li>
-                    <p>Name</p>
+                  <p style={{fontSize:"20px", color:"black", fontWeight:"bold"}}>J. P. C. Chandrasena</p>
                     <img src={imgP1} alt="" />
                   </li>
                   <li>
-                    <i className="fas fa-check" />
-                    Name
-                  </li>
-                  <li>
-                    <i className="fas fa-check" />
-                    Name
-                  </li>
-                  <li>
-                    <i className="fas fa-check" />
-                    Name
+                  <p style={{fontSize:"20px", color:"black", fontWeight:"bold"}}>R. J. Kularthne</p>
+                    <img src={imgP3} alt="" />
                   </li>
                 </ul>
               </div>

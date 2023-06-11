@@ -16,7 +16,7 @@ export default function Hometwo() {
   return (
     <Fragment>
       <MetaTags>
-        <title>RMS | Home</title>
+        <title> Home</title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />

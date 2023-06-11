@@ -16,7 +16,7 @@ export default function NewsPage() {
   return (
     <Fragment>
       <MetaTags>
-        <title>RMS | News</title>
+        <title>News</title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />

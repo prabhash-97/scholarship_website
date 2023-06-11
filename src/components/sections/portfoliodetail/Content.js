@@ -7,7 +7,6 @@ class Content extends Component {
         return (
             <Fragment>
                 <Details/>
-                <Cta/>
             </Fragment>
         );
     }

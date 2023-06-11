@@ -25,9 +25,9 @@ const missiontab = [
   },
 ];
 const historytab = [
-  { icon: "fas fa-check", text: "Mr. B M F Jayarathne" },
-  { icon: "fas fa-check", text: "Mr. J P C Chandrasena " },
-  { icon: "fas fa-check", text: "Mr. R J Kularthne" },
+  { icon: "fas fa-check", text: "B. M. F. Jayarathne" },
+  { icon: "fas fa-check", text: "J. P. C. Chandrasena " },
+  { icon: "fas fa-check", text: "R. J. Kularthne" },
 ];
 const businessgoalstab = [
   {
@@ -128,13 +128,12 @@ class Advancedtab extends Component {
                           <img src={img3} alt="" /> 
                           </p>
                           <p>
-                           Based on Ranasgalle thero's saying, Mr. B M Jayarathne had started this scholarship.
+                          Based on Ranasgalle thero's saying, Mr. B. M. Jayarathne has started this scholarship.
                            The main objective of that was to give support to students in their education. 
-                           To give education to all children not only based on money or social status three people came forward 
-                           to build this scholarship society. 
-                           They started this society 31 st of July 1920 in Jinaraja Vidyalay Kollupitiya.
+                           Therefore, to give education to all children not only based on money or social status three people came forward to build this scholarship society. 
+                           To fulfill this society's main objective, they started this society on 31 st of July 1920 in Jinaraja Vidyalay Kollupitiya.
                           <p style={{color: "black", fontWeight: "bold"}}>
-                            Founding members :
+                          The founding members of this society :
                           </p>
                           </p>
                           <ul>
@@ -169,12 +168,13 @@ class Advancedtab extends Component {
                           <h2 className="title">Theme Song</h2>
                           <div className="block-image">
                             <img src={img4} alt="" />
-                            <p>
+
+                            <p style={{ alignItems:"center"}}>
                             {this.state.isPlaying ? 
                             "Click again to Paused the song" : 
-                            "Listen to the theme song"}
+                            ""}
                           </p>
-                          <button style={{backgroundColor: "black", color: "white", font: "20px", padding: "10px 60px", margin: "10px 0px"}} onClick={this.playPause}>
+                          <button style={{backgroundColor: "black", alignItems:"center", color: "white", font: "20px", padding: "10px 60px", margin: "10px 0px"}} onClick={this.playPause}>
                           <i class="fa fa-music" aria-hidden="true"></i>
                           </button>    
                           </div>

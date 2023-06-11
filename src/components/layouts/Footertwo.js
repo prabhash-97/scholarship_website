@@ -38,53 +38,21 @@ class Footertwo extends Component {
                     <img src={logo} alt="" />
                   </div>
                   <p>
-                    Power of choice is untrammelled &amp; when nothing prevents
-                    our being able
+                    Help each other &amp; for better future
                   </p>
                   <ul className="social-links">
                     <li>
                       <a
-                        href="https://www.facebook.com/RISTONMANAGEMENTSERVICES/"
+                        href=" "
                         target="_blank"
                       >
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-instagram" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-behance" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-dribbble" />
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-8 col-sm-7 order-2">
-                <div className="widget newsletter-widget">
-                  <h4 className="widget-title">Subscribe Our Newsletters</h4>
-                  <div className="newsletter-form">
-                    <form action="#">
-                      <input type="email" placeholder="Enter Your Email" />
-                      <button type="submit" className="main-btn">
-                        Subscribe Now
-                      </button>
-                    </form>
-                  </div>
-                </div>
               </div>
               <div className="col-lg-4 col-sm-6 order-3">
                 <div className="widget nav-widget">

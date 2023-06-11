@@ -1,29 +1,29 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-import author1 from "../../../assets/img/team/img1.jpg";
+import author1 from "../../../assets/img/team/person.jpg";
 
 const testimonialslide = [
   {
     img: author1,
-    name: "Shilaj Shananjaya Lokusuriya",
+    name: "ABC",
     post: "Director",
     comment:
-      "The Director for Riston Management Services is an Certified Business Accountant of the Institute of Chartered Accountants of Sri Lanka and he is a Member of Association of Accounting Technicians of Sri Lanka. He counts over fifteen (15) years of experience in Company Secretary , Accounting, Finance and Management Consultancy Services in the priva.",
+      "Message",
   },
   {
     img: author1,
-    name: "Shilaj Shananjaya Lokusuriya",
+    name: "ABC",
     post: "Director",
     comment:
-      "The Director for Riston Management Services is an Certified Business Accountant of the Institute of Chartered Accountants of Sri Lanka and he is a Member of Association of Accounting Technicians of Sri Lanka. He counts over fifteen (15) years of experience in Company Secretary , Accounting, Finance and Management Consultancy Services in the priva.",
+    "Message",
   },
   {
     img: author1,
-    name: "Shilaj Shananjaya Lokusuriya",
+    name: "ABC",
     post: "Director",
     comment:
-      "The Director for Riston Management Services is an Certified Business Accountant of the Institute of Chartered Accountants of Sri Lanka and he is a Member of Association of Accounting Technicians of Sri Lanka. He counts over fifteen (15) years of experience in Company Secretary , Accounting, Finance and Management Consultancy Services in the priva.",
+    "Message",
   },
 
   //   {

@@ -18,9 +18,10 @@ class About extends Component {
                                     <h2 className="title">We are a Great Family </h2>
                                 </div>
                                 <p className="mb-25">
-                                    In 2023 we have completed the 100th anniversary of our journey. we are non profit soceiy. 
-                                    we all do this for  only support students to therir education. we have strong 
-                                    relations and collaboration all over the country and we hope moreexapnd our network with more relatives. 
+                                In 2023 we completed the 100th anniversary of our journey. We are a non-profit organization. 
+                                All of us are doing this only to help the students in their education. We have strong relationships
+                                 and collaborations across the 
+                                country and we look forward to further expanding our network with more relatives.
                                 </p>
                                 <ul className="about-list">
                                     <li> <i className="far fa-check" /> Supportive</li>

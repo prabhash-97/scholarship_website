@@ -13,54 +13,54 @@ import { map } from "jquery";
 const serviceblock = [
   {
     icon: icon2,
-    title: "Web development",
-    text: "Starting from basic website designs to highly complex business website apps and design solutions, we will customize the best of web development solutions for you.",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     icon: icon4,
-    title: "UI/UX Design",
-    text: "In today’s age of information overload, we’ve always been attracted to finding better ways to simplify the communication of heavy content.",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     icon: icon1,
-    title: "Mobile App Development",
-    text: "Intuitive designs combined with compelling user experience are what makes our apps stand ahead in the digital age.",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content..",
   },
   {
     icon: icon3,
-    title: "Software Development",
-    text: "Software development ensures smooth experience with less wait time for your clients and decreases your business expenses. Try Hike Point of sale today!",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     icon: icon2,
-    title: "Digital Marketing",
-    text: "Developing a long-term and reliable marketing strategy will flourish and live a longer life with your customers. We are empowering brands with digital marketing.",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     icon: icon1,
-    title: "Branding",
-    text: "Branding is one of the most crucial aspects of any business, large or small. An effective brand can give you a significant edge in today’s highly competitive market.",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
 ];
 
 const serviceMain = [
   {
     icon: icon4,
-    title: "Company Secretarial Servcies",
-    text: "Our company secretarial services ensure that, our client’s business complies with all legal and statutory requirements that are applicable and mitigate client’s time and burden to keep up with the multitudes of statutory records",
+    title: "News 1",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.  ",
     route: "/Secretarial",
   },
   {
     icon: icon3,
-    title: "Tax Consulting & Advisory Services",
-    text: "We provide tax consultancy and compliance services understanding the diverse taxation systems and offer the best solutions in estimating various tax liabilities, paying them on due dates and filing tax returns quickly with zero hassle for the taxable persons",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
     route: "/Tax",
   },
 
   {
     icon: icon1,
-    title: "Business Outsourcing",
-    text: "One of the most important activities in any type of businesses is to keep proper record on the financial transactions, routine or occasional with adequate references to supporting documents on a very timely basis, Financial reports are prepared for management purpose",
+    title: "News",
+    text: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
     route: "/Outsourcing",
   },
 ];

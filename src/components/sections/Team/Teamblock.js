@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import img1 from "../../../assets/img/team/img1.jpg";
+import img1 from "../../../assets/img/team/person.jpg";
 
 const teamblock = [
-  { img: img1, name: "Dr. Upali Fernando", post: "Director" },
-     { img: img1, name: "Percy Hemachandra", post: "Business Developer" },
-     { img: img1, name: "Peter Kuttapitiya", post: "Business Developer" },
-     { img: img1, name: "David Weerarathne", post: "Business Developer" },
+  { img: img1, name: "Yamuna Balasooriya", post: "President of Society" },
+     { img: img1, name: "Mahendra Harischandra", post: "Secretary" },
+     { img: img1, name: "Dayananda Weerasinghe", post: "Treasurer" },
+     { img: img1, name: "Upali Fernando", post: "Advisor" },
 ];
 class Teamblock extends Component {
   render() {

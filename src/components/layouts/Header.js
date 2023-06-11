@@ -70,7 +70,7 @@ class Header extends Component {
 
                                 {/* Navbtn */}
                                 <div className={`navbar-btn nav-push-item ${smallmobileactive}`}>
-                                    <Link className="main-btn main-btn-3" to="/service">Consulting Now</Link>
+                                    <Link className="main-btn main-btn-3" to="/contact">Contact Us Now</Link>
                                 </div>
                                 {/* Navbar Toggler */}
                                 <div className={classNames("navbar-toggler", { "active": this.state.togglemethod })} onClick={this.toggleClass}>

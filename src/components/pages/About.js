@@ -17,7 +17,7 @@ export default function About() {
   return (
     <Fragment>
       <MetaTags>
-        <title>RMS | About Us</title>
+        <title>About Us</title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />

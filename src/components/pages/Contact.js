@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <Fragment>
       <MetaTags>
-        <title>RMS | Contact Us</title>
+        <title>Contact Us</title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />

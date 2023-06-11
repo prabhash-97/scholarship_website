@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 import illustration from "../../../assets/img/illustration/man-with-earth-02.png";
+import form from "../../../assets/img/illustration/man-with-earth-02.png";
 
 const Content = () => {
   const fullname = useRef(null);
@@ -28,7 +29,7 @@ const Content = () => {
     e.preventDefault();
 
     let data = {
-      to: "info@rmssec.com",
+      to: "lanka@ss.com",
       subject: "New contact Email From Client",
       text: `
                 <h3><b> Client Full Name : ${fullname.current.value}</b></h3>
@@ -102,26 +103,26 @@ const Content = () => {
                     +94 77 994 7204
                   </li>*/}
                   <li>
-                    <a href="tel: +94 77 994 7204">
+                    <a href="tel: +94 00 000 0000">
                       <i className="far fa-phone" />
-                      +94 77 994 7204
+                      +94 00 000 0000
                     </a>
                   </li>
                   <li>
-                    <a href="tel: +94 77 994 7204">
+                    <a href="tel: +94 00 000 0000">
                       <i className="far fa-phone" />
-                      +94 34 227 2529
+                      +94 00 000 0000
                     </a>
                   </li>
 
                   <li>
                     <i className="far fa-envelope-open" />
-                    <Link>info@rmssec.com</Link>
+                    <Link>lanka@ss.com</Link>
                   </li>
                   <li>
                     <i className="far fa-map-marker-alt" />
-                    18/39, E.D. Dabare Mawatha, <br />{" "}
-                    &nbsp;&nbsp;&nbsp;&nbsp; Colombo 05
+                    18/39, <br />{" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp; E.D. Dabare Mawatha, Colombo 05
                   </li>
                 </ul>
               </div>
@@ -223,15 +224,7 @@ const Content = () => {
       </div>
       <div className="container-fluid container-1600 pb-3">
         <div className="contact-map">
-          <iframe
-            title="map"
-            src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d63433.813051603975!2d80.00478270305585!3d6.443670996415623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d6.4435869!2d80.0398022!5e0!3m2!1sen!2ssg!4v1630944135796!5m2!1sen!2ssg"
-            width="800"
-            height="600"
-            style={{ border: 0 }}
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+        <img src={form} alt="" />
         </div>
       </div>
     </section>

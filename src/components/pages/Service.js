@@ -16,7 +16,7 @@ export default function Service() {
   return (
     <Fragment>
       <MetaTags>
-        <title> RMS | Services</title>
+        <title> Services</title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />

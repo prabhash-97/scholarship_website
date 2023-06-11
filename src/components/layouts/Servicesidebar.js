@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 import ctabg from "../../assets/img/sidebar/cta.jpg";
 
 const servicelist = [
-  { title: "Starting Members", route: "/Secretarial" },
-  { title: "How we Start???", route: "/Tax" },
-  { title: "Past Anniversaires", route: "/Outsourcing" },
+  { title: "Founders", route: "/Secretarial" },
+  { title: "How we Start", route: "/Tax" },
 ];
 
 class Servicesidebar extends Component {

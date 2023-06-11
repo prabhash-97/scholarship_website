@@ -17,7 +17,7 @@ export default function Portfolio() {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>RMS | Fund List</title>
+                    <title>Fund List</title>
                     <meta
                         name="description"
                         content="#"

@@ -7,11 +7,11 @@ import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 import img2 from "../../../assets/img/banner/02.jpg";
 import img3 from "../../../assets/img/banner/03.jpg";
-import img4 from "../../../assets/img/banner/04.jpg";
+import img4 from "../../../assets/img/banner/04_Image.jpg";
 
 const bannerslide = [
   {
-    img: img3,
+    img: img4,
     title: "Take Great Idea To  Growth Your  Business",
     text: " More than 10 years of experience helping businesses find unique solutions that are effective.",
     btntext: "Get Started Now",
@@ -25,7 +25,7 @@ const bannerslide = [
     btntext1: "Our Services",
   },
   {
-    img: img2,
+    img: img4,
     title: "Financial Consulting For Your Business",
     text: "More than 10 years of experience helping businesses find unique solutions that are effective.",
     btntext: "Get Started Now",
