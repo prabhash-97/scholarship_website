@@ -4,7 +4,7 @@ import Navmenu from "./Navmenu";
 import OffCanvas from "./Offcanvas";
 import classNames from "classnames";
 
-import logo from "../../assets/img/logo.png";
+import logo from "../../assets/img/logo.jpg";
 
 class Headertwo extends Component {
   constructor(props) {
@@ -105,26 +105,6 @@ class Headertwo extends Component {
                     >
                       <i className="fab fa-facebook-f" />
                     </a>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="fab fa-behance" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="fab fa-dribbble" />
-                    </Link>
                   </li>
                 </ul>
               </div>

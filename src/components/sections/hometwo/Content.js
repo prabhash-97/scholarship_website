@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from "react";
-import Workingprocess from "../hometwo/Workingprocess";
+import Workingprocess from "../service/Workingprocess";
 import About from "./About";
 import Banner from "./Banner";
 import Counter from "./Counter";
-import Services from "./Services";
+import Services from "../service/Service";
 import Service from "./Service";
-import Video from "./Video";
+import Video from "../service/Video";
 
 class Content extends Component {
   render() {
@@ -18,7 +18,7 @@ class Content extends Component {
         {/* <Project/> */}
         <Counter />
         <Workingprocess />
-        <Video />
+        {/*<Video src={Video} width="600" height="300" controls="controls" autoplay="true" />*/}
       </Fragment>
     );
   }

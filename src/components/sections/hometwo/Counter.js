@@ -3,10 +3,9 @@ import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
 const counterblock = [
-  { icon: "flaticon-graphic", count: "100", title: "Project Completed" },
-  { icon: "flaticon-plan", count: "500", title: "Satisfied Clients" },
-  { icon: "flaticon-target-1", count: "5", title: "International Awards" },
-  { icon: "flaticon-teamwork", count: "10", title: "Expert Team Members" },
+  { icon: "flaticon-target-1", count: "20", title: "A/l Students Currently receiving scholarships" },
+  { icon: "flaticon-target-1", count: "40", title: "O/l Students Currently receiving scholarships" },
+  { icon: "flaticon-target-1", count: "50", title: "Universities Students Currently receiving scholarships" },
 ];
 export default function Counter() {
   const [focus, setFocus] = React.useState(false);

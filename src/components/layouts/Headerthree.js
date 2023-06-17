@@ -4,7 +4,7 @@ import Navmenu from "./Navmenu";
 import OffCanvas from "./Offcanvas";
 import classNames from "classnames";
 
-import logo from "../../assets/img/logo.png";
+import logo from "../../assets/img/logo.jpg";
 
 class Headerthree extends Component {
   constructor(props) {

@@ -12,22 +12,22 @@ import img4 from "../../../assets/img/banner/04_Image.jpg";
 const bannerslide = [
   {
     img: img4,
-    title: "Take Great Idea To  Growth Your  Business",
-    text: " More than 10 years of experience helping businesses find unique solutions that are effective.",
+    title: "Supportive & Trustworthy",
+    text: " More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",
   },
   {
     img: img4,
-    title: "We focus on your business",
-    text: "More than 10 years of experience helping businesses find unique solutions that are effective.",
+    title: "We focus on our student future",
+    text: "More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",
   },
   {
     img: img4,
-    title: "Financial Consulting For Your Business",
-    text: "More than 10 years of experience helping businesses find unique solutions that are effective.",
+    title: "Donate to charity",
+    text: "More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",
   },

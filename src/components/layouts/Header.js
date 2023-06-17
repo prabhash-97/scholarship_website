@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navmenu from './Navmenu';
 import classNames from 'classnames'
 
-import logo from '../../assets/img/logo.png';
+import logo from '../../assets/img/logo.jpg';
 
 class Header extends Component {
     constructor(props) {
