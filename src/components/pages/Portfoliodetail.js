@@ -5,9 +5,15 @@ import Footer from '../layouts/Footer';
 import Breadcrumbs from '../layouts/Breadcrumbs';
 import Client from '../layouts/Client';
 import Content from '../sections/portfoliodetail/Content';
+import { useEffect } from "react";
 
-class Portfoliodetail extends Component {
-    render() {
+export default function Portfoliodetail() {
+        useEffect(() => {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
         return (
             <Fragment>
                 <MetaTags>
@@ -24,6 +30,3 @@ class Portfoliodetail extends Component {
             </Fragment>
         );
     }
-}
-
-export default Portfoliodetail;

@@ -56,10 +56,11 @@ class Footer extends Component {
                         href=" "
                         target="_blank"
                       >
-                        <i className="fab fa-facebook-f" />
+                       <i className="fab fa-facebook-f" />
+                       <br/>
+                    <Link>www.facebook.com/lankasishya</Link>
                       </a>
-                      <br/>
-                      Via Email : lankashishyadara@test.com
+                      
                       <button type="submit" className="main-btn">
                         <Link className="main-btn main-btn-3" to="/contact">Contact Us</Link>
                       </button>
@@ -130,21 +131,15 @@ class Footer extends Component {
                           </Link>
                         </li>*/}
                         <li>
-                          <a href="tel: +94 00 000 0000">
-                            <i className="far fa-phone" />
-                            +94 00 000 0000
+                          <a href="tel: +94 71 684 5668">
+                          <i className="far fa-phone" />
+                            +94 71 684 5668
                           </a>
                         </li>
                         <li>
-                          <a href="tel: +94 00 000 0000">
-                            <i className="far fa-phone" />
-                            +94 00 000 0000
-                          </a>
-                        </li>
-                        <li>
-                          <Link to="contact@test.com">
-                            <i className="far fa-envelope-open" />{" "}
-                            info@test.com
+                          <Link to="www.facebook.com/lankasishya">
+                          <i className="fab fa-facebook-f" />
+                            www.facebook.com/lankasishya
                           </Link>
                         </li>
                         <li>

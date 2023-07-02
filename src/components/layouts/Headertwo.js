@@ -80,15 +80,15 @@ class Headertwo extends Component {
                       <i className="far fa-phone" />
                       +94 34 227 2529
                     </Link>*/}
-                    <a href="tel: +94 00 000 0000">
+                    <a href="tel: +94 71 684 5668">
                       <i className="far fa-phone" />
-                      +94 00 000 0000
+                      +94 71 684 5668
                     </a>
                   </li>
                   <li>
-                    <Link to="#">
-                      <i className="far fa-envelope-open" />
-                      lankass@.com
+                    <Link to="www.facebook.com/lankasishya">
+                    <i className="fab fa-facebook-f" />
+                    www.facebook.com/lankasishya
                     </Link>
                   </li>
                   <li>
@@ -96,7 +96,7 @@ class Headertwo extends Component {
                     No 000/A, Nugegoda
                   </li>
                 </ul>
-                {/* Social Links */}
+                {/* Social Links 
                 <ul className="social-links">
                   <li>
                     <a
@@ -106,7 +106,7 @@ class Headertwo extends Component {
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
-                </ul>
+                </ul>*/}
               </div>
             </div>
           </div>

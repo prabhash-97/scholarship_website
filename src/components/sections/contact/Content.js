@@ -103,21 +103,15 @@ const Content = () => {
                     +94 77 994 7204
                   </li>*/}
                   <li>
-                    <a href="tel: +94 00 000 0000">
+                    <a href="tel: +94 71 684 5668">
                       <i className="far fa-phone" />
-                      +94 00 000 0000
-                    </a>
-                  </li>
-                  <li>
-                    <a href="tel: +94 00 000 0000">
-                      <i className="far fa-phone" />
-                      +94 00 000 0000
+                      +94 71 684 5668
                     </a>
                   </li>
 
                   <li>
-                    <i className="far fa-envelope-open" />
-                    <Link>lanka@ss.com</Link>
+                    <i className="fab fa-facebook-f" />
+                    <Link>www.facebook.com/lankasishya</Link>
                   </li>
                   <li>
                     <i className="far fa-map-marker-alt" />

@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import img1 from "../../../assets/img/team/person.jpg";
+import img4 from "../../../assets/img/team/a.PNG";
+import img1 from "../../../assets/img/team/p.PNG";
+import img2 from "../../../assets/img/team/s.jpg";
+import img3 from "../../../assets/img/team/t.jpg";
 
 const teamblock = [
   { img: img1, name: "Yamuna Balasooriya", post: "President of Society" },
-     { img: img1, name: "Mahendra Harischandra", post: "Secretary" },
-     { img: img1, name: "Dayananda Weerasinghe", post: "Treasurer" },
-     { img: img1, name: "Upali Fernando", post: "Advisor" },
+     { img: img2, name: "Mahendra Harischandra", post: "Secretary" },
+     { img: img3, name: "Dayananda Weerasinghe", post: "Treasurer" },
+     { img: img4, name: "Upali Fernando", post: "Advisor" },
 ];
 class Teamblock extends Component {
   render() {
@@ -29,20 +32,7 @@ class Teamblock extends Component {
                   <div className="member-picture-wrap">
                     <div className="member-picture">
                       <img src={item.img} alt="" />
-                      <div className="social-icons">
-                        <Link to="/">
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                        <Link to="/">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                        <Link to="/">
-                          <i className="fab fa-behance" />
-                        </Link>
-                        <Link to="/">
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </div>
+         
                     </div>
                   </div>
                   <div className="member-desc">

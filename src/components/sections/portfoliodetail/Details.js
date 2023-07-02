@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import thumb from '../../../assets/img/details/project-big-img.jpg';
+import pp from '../../../assets/img/details/pp.PNG';
 
 import img1 from '../../../assets/img/details/project-01.jpg';
 import img2 from '../../../assets/img/details/project-02.jpg';
@@ -25,25 +26,7 @@ class Details extends Component {
                             <div className="col-lg-8 order-2 order-lg-2">
                                 <div className="content">
                                     <h2>Current status of our Society</h2>
-                                    <p className="mb-40">
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                                        amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-                                        labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                                        nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                                        consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                        nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu
-                                    </p>
-                                    <p>
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                        velit, sed quia numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
-                                        quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                                        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-                                        reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-                                    </p>
+                                    <img src={pp} alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-4 order-1 order-lg-2">
@@ -67,11 +50,7 @@ class Details extends Component {
                             <div className="col-12 order-3">
                                 <div className="thumbs">
                                     <div className="row justify-content-center">
-                                        {imagegallery.map((item, i) => (
-                                            <div key={i} className="col-md-4 col-sm-6 text-center">
-                                                <img src={item.img} alt="" />
-                                            </div>
-                                        ))}
+                               
                                     </div>
                                 </div>
                             </div>

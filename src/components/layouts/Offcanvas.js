@@ -13,10 +13,7 @@ class Offcanvas extends Component {
             <img src={logo} alt="" />
           </div>
           <p>
-            We have experience in handling work of an extremely sensitive nature
-            for our existing clientele including Payroll and hence is well
-            experienced in maintaining confidentiality and handling work with a
-            high degree of care.
+          All of us are doing this only to help the students in their education. We have strong relationships and collaborations across the country and we look forward to further expanding our network with more relatives.
           </p>
         </div>
         {/* Contact information Widget */}
@@ -25,15 +22,15 @@ class Offcanvas extends Component {
           <ul>
             <li>
               <i className="far fa-map-marked-alt" />
-              Aluthgama
+              Colombo 05
             </li>
             <li>
               <i className="far fa-phone" />
-              +94 77 994 7204 (24/7 Support Line)
+              +94 71 684 5668 
             </li>
             <li>
-              <i className="far fa-envelope-open" />
-              info@rmssec.com
+            <i className="fab fa-facebook-f" />
+              www.facebook.com/lankasishya
             </li>
           </ul>
         </div>
