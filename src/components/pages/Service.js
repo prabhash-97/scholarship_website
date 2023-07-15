@@ -20,7 +20,7 @@ export default function Service() {
         <meta name="description" content="#" />
       </MetaTags>
       <Header />
-      <Breadcrumbs breadcrumb={{ pagename: "Services" }} />
+      <Breadcrumbs breadcrumb={{ pagename: "Our Services" }} />
       <Content />
       {/* <section className="client-section">
                     <div className="container">

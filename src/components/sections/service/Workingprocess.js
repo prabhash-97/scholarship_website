@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 
-import processbg1 from "../../../assets/img/video-bg/01.jpg";
-import processbg2 from "../../../assets/img/video-bg/02.jpg";
+import processbg1 from "../../../assets/img/video-bg/image_18.jpeg";
+import processbg2 from "../../../assets/img/video-bg/image_17.jpg";
 
 const processlist = [
   {
     icon: "fal fa-check",
-    number: "*",
+    number: "01",
     title: "NONPROFITS",
     text: "We are a nonprofit that supports mainly students by connecting them to donors. We're a partner, not just a platform.",
   },
   {
     icon: "fal fa-gift",
-    number: "*",
+    number: "02",
     title: "DONORS",
     text: "You feel great when you get updates about how your money is put to work by a trusted organization.",
   },
   {
     icon: "fal fa-globe",
-    number: "*",
+    number: "03",
     title: "OUR IMPACT",
     text: "Nonprofits have the funding to listen to feedback and try new ways to work better.",
   },

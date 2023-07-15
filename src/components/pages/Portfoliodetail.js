@@ -17,14 +17,14 @@ export default function Portfoliodetail() {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Projects Detail</title>
+                    <title>Projects</title>
                     <meta
                         name="description"
                         content="#"
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumbs breadcrumb={{pagename:'Projects Detail'}}/>
+                <Breadcrumbs breadcrumb={{pagename:'Our Projects'}}/>
                 <Content/>
                 <Footer/>
             </Fragment>

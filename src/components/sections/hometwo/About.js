@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import img1 from "../../../assets/img/video-bg/poster-1.jpg";
-import img2 from "../../../assets/img/video-bg/poster-3.jpg";
+import img1 from "../../../assets/img/video-bg/image_11.jpg";
+import img2 from "../../../assets/img/video-bg/image_12.jpg";
 
 class About extends Component {
   render() {
@@ -30,34 +30,34 @@ class About extends Component {
               <div className="about-text-two">
                 <div className="section-title left-border mb-40">
                   <span className="title-tag">Values of Us</span>
-                  <h2 className="title">What we do for you...</h2>
+                  <h2 className="title">What we do for students...</h2>
                 </div>
-                <p>Take a moment to explore what we can offer for you.</p>
+                <p>We hope to help students to the best of our ability.</p>
                 <ul className="about-list">
                   <li>
                     {" "}
                     <i className="fas fa-check" />
-                    Implement segregation of duties{" "}
+                    Implement a strong educational background{" "}
                   </li>
                   <li>
                     {" "}
                     <i className="fas fa-check" />
-                    Make sure transactions are authorized
+                    Make sure students' education is secure
                   </li>
                   <li>
                     {" "}
                     <i className="fas fa-check" />
-                    Ensure records are routinely reviewed and reconciled
+                    Be sure to help with all necessary education
                   </li>
                   <li>
                     {" "}
                     <i className="fas fa-check" />
-                    Document policies and procedures
+                    Treat everyone the same
                   </li>
                   <li>
                     {" "}
                     <i className="fas fa-check" />
-                    Provide employees with appropriate guidance
+                    Provide suitable guidelines
                   </li>
                 </ul>
                 <Link to="/about" className="main-btn">

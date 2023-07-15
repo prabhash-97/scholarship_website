@@ -25,8 +25,10 @@ class Details extends Component {
                         <div className="row">
                             <div className="col-lg-8 order-2 order-lg-2">
                                 <div className="content">
-                                    <h2>Current status of our Society</h2>
+                                    <h2>How Our Projects Going......</h2>
+                                    <br></br>
                                     <img src={pp} alt="" />
+
                                 </div>
                             </div>
                             <div className="col-lg-4 order-1 order-lg-2">
@@ -50,7 +52,9 @@ class Details extends Component {
                             <div className="col-12 order-3">
                                 <div className="thumbs">
                                     <div className="row justify-content-center">
-                               
+                                    <h2>Past Activities</h2>
+                                    <img src={pp} alt="" />
+                                    <p>details</p>
                                     </div>
                                 </div>
                             </div>
