@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
-import illustration from "../../../assets/img/illustration/man-with-earth-02.png";
-import form from "../../../assets/img/illustration/man-with-earth-02.png";
+import illustration from "../../../assets/img/illustration/image_07-removebg-preview.png";
+import form from "../../../assets/img/illustration/444.PNG";
 
 const Content = () => {
   const fullname = useRef(null);
@@ -217,9 +217,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container-fluid container-1600 pb-3">
-        <div className="contact-map">
         <img src={form} alt="" />
-        </div>
       </div>
     </section>
   );
