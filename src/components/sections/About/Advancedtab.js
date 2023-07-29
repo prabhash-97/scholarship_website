@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Tab, Nav } from "react-bootstrap";
 
-import img from "../../../assets/img/tab-block.jpg";
-import imgGoal from "../../../assets/img/goal.png";
+import img from "../../../assets/img/flag.jpg";
+import imgGoal from "../../../assets/img/salute.png";
 import img2 from "../../../assets/img/2_.png";
 import Teamblock from "../Team/Teamblock";
 import img1 from "../../../assets/img/1_.png"
@@ -160,23 +160,22 @@ class Advancedtab extends Component {
                     <div className="row align-items-center justify-content-center">
                       <div className="col-lg-6 col-md-10">
                         <div className="block-image">
-                          <img src={imgGoal} alt="" />
+                          <img src={img4} alt="" />
+                          <p style={{ alignItems:"center"}}>
+                          {this.state.isPlaying ? 
+                          "Click again to Paused the song" : 
+                          ""}
+                          </p>
+                          <button style={{backgroundColor: "black", alignItems:"center", color: "white", font: "20px", padding: "10px 60px", margin: "10px 0px"}} onClick={this.playPause}>
+                            <i class="fa fa-music" aria-hidden="true"></i>
+                          </button> 
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-10">
                         <div className="block-text">
                           <h2 className="title">Theme Song</h2>
                           <div className="block-image">
-                            <img src={img4} alt="" />
-
-                            <p style={{ alignItems:"center"}}>
-                            {this.state.isPlaying ? 
-                            "Click again to Paused the song" : 
-                            ""}
-                          </p>
-                          <button style={{backgroundColor: "black", alignItems:"center", color: "white", font: "20px", padding: "10px 60px", margin: "10px 0px"}} onClick={this.playPause}>
-                          <i class="fa fa-music" aria-hidden="true"></i>
-                          </button>    
+                          <img src={imgGoal} alt="" />
                           </div>
                         </div>
                       </div>

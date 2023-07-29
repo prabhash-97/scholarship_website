@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import img1 from "../../../assets/img/video-bg/image_11.jpg";
 import img2 from "../../../assets/img/video-bg/image_12.jpg";
+import img3 from "../../../assets/img/Capture.PNG";
 
 class About extends Component {
   render() {
@@ -30,9 +31,9 @@ class About extends Component {
               <div className="about-text-two">
                 <div className="section-title left-border mb-40">
                   <span className="title-tag">Values of Us</span>
-                  <h2 className="title">What we do for students...</h2>
+                  <h2 className="title">What we do for students ...</h2>
+                  <p>දෙගුරුන් විසින් තම දරුවනට දෙන නොමද දන නම වියතුන් සභා මැද ඉන්ට ඉදිරිව ශිල්ප දෙනු මයි (පූජ්‍ය රණස්ගල්ලේ හිමි ) </p>
                 </div>
-                <p>We hope to help students to the best of our ability.</p>
                 <ul className="about-list">
                   <li>
                     {" "}
@@ -48,11 +49,6 @@ class About extends Component {
                     {" "}
                     <i className="fas fa-check" />
                     Be sure to help with all necessary education
-                  </li>
-                  <li>
-                    {" "}
-                    <i className="fas fa-check" />
-                    Treat everyone the same
                   </li>
                   <li>
                     {" "}

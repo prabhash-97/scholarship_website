@@ -6,6 +6,7 @@ import pp from '../../../assets/img/details/pp.PNG';
 import img1 from '../../../assets/img/details/project-01.jpg';
 import img2 from '../../../assets/img/details/project-02.jpg';
 import img3 from '../../../assets/img/details/project-03.jpg';
+import News from '../careers/News';
 
 const imagegallery = [
     { img: img1 },
@@ -19,13 +20,16 @@ class Details extends Component {
             <section className="project-details section-gap">
                 <div className="container">
                     <div className="project-thumb">
-                        <img src={thumb} alt="" />
+                        <div className="section-title left-border mb-40">
+                        <span className="title-tag">Current Status of Our Society</span>
+                        <h2 className="title">How our projects work ...</h2>
+                        </div>
                     </div>
                     <div className="project-content mt-60">
                         <div className="row">
                             <div className="col-lg-8 order-2 order-lg-2">
                                 <div className="content">
-                                    <h2>How Our Projects Going......</h2>
+                                    <h2></h2>
                                     <br></br>
                                     <img src={pp} alt="" />
 
@@ -51,10 +55,9 @@ class Details extends Component {
                             </div>
                             <div className="col-12 order-3">
                                 <div className="thumbs">
+                                <div className="project-thumb">
+                                </div>
                                     <div className="row justify-content-center">
-                                    <h2>Past Activities</h2>
-                                    <img src={pp} alt="" />
-                                    <p>details</p>
                                     </div>
                                 </div>
                             </div>

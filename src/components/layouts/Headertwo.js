@@ -93,7 +93,7 @@ class Headertwo extends Component {
                   </li>
                   <li>
                     <i className="far fa-map-marker-alt" />
-                    No 000/A, Nugegoda
+                    18/39, E.D. Dabare Mawatha, Colombo 05
                   </li>
                 </ul>
                 {/* Social Links 

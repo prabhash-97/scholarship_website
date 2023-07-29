@@ -24,7 +24,7 @@ export default function Portfoliodetail() {
                     />
                 </MetaTags>
                 <Header/>
-                <Breadcrumbs breadcrumb={{pagename:'Our Projects'}}/>
+                <Breadcrumbs breadcrumb={{pagename:'Events'}}/>
                 <Content/>
                 <Footer/>
             </Fragment>

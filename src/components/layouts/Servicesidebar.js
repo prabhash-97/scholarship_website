@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import ctabg from "../../assets/img/sidebar/cta.jpg";
+import ctabg from "../../assets/img/sidebar/cnt.jpg";
 
 const servicelist = [
   { title: "Founders", route: "/Secretarial" },
@@ -34,7 +34,7 @@ class Servicesidebar extends Component {
           className="widget cta-widget"
           style={{ backgroundImage: "url(" + ctabg + ")" }}
         >
-          <h4 className="title">Join With Us</h4>
+          <h4 className="title"></h4>
           <Link to="/contact" className="main-btn">
             Send Message
           </Link>

@@ -129,95 +129,15 @@ const Content = () => {
               <div className="section-title text-center mb-40">
                 <h2 className="title">Send a Message To Contact Us</h2>
                 <br />
-
-                {feedShow && (
-                  <div className="results">
-                    {feedType === "success" ? (
-                      <div className="alert alert-success">
-                        <center>{feedback}</center>
-                      </div>
-                    ) : (
-                      <div className="alert alert-danger">
-                        <center>{feedback}</center>
-                      </div>
-                    )}
-                  </div>
-                )}
+                <img src={form} alt="" />
               </div>
 
-              <form onSubmit={(e) => handleSendEmail(e)}>
-                <div className="row">
-                  <div className="col-lg-4">
-                    <div className="input-group mb-30">
-                      <input
-                        type="text"
-                        placeholder="Your Full Name"
-                        ref={fullname}
-                        required
-                      />
-                      <span className="icon">
-                        <i className="far fa-user-circle" />
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4">
-                    <div className="input-group mb-30">
-                      <input
-                        type="email"
-                        placeholder="Your Email Address"
-                        ref={email}
-                        required
-                      />
-                      <span className="icon">
-                        <i className="far fa-envelope-open" />
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4">
-                    <div className="input-group mb-30">
-                      <input
-                        type="text"
-                        placeholder="Your Phone"
-                        ref={phone}
-                        required
-                      />
-                      <span className="icon">
-                        <i className="far fa-phone" />
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="col-12">
-                    <div className="input-group textarea mb-30">
-                      <textarea
-                        placeholder="Write Message"
-                        ref={message}
-                        required
-                        defaultValue={""}
-                      />
-                      <span className="icon">
-                        <i className="far fa-pencil" />
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="col-12 text-center">
-                    {!loading && (
-                      <button type="submit" className="main-btn">
-                        Send Message
-                      </button>
-                    )}
-                  </div>
-                </div>
-              </form>
+              
             </div>
           </div>
         </div>
       </div>
       <div className="container-fluid container-1600 pb-3">
-        <img src={form} alt="" />
       </div>
     </section>
   );
