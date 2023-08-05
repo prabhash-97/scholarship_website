@@ -83,12 +83,12 @@ class Footertwo extends Component {
                       <h4 className="widget-title">Services</h4>
                       <ul>
                         <li>
-                          <Link to="/Secretarial">
+                          <Link to="/Founders">
                             Company Secretarial Servcies
                           </Link>
                         </li>
                         <li>
-                          <Link to="/Tax">Tax Consulting & Advisory</Link>
+                          <Link to="/History">Tax Consulting & Advisory</Link>
                         </li>
                         <li>
                           <Link to="/Outsourcing">Business Outsourcing</Link>

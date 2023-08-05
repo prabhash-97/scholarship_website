@@ -48,13 +48,13 @@ const serviceMain = [
     icon: icon4,
     title: "Company Secretarial Servcies",
     text: "Our company secretarial services ensure that, our client’s business complies with all legal and statutory requirements that are applicable and mitigate client’s time and burden to keep up with the multitudes of statutory records",
-    route: "/Secretarial",
+    route: "/Founders",
   },
   {
     icon: icon3,
     title: "Tax Consulting & Advisory Services",
     text: "We provide tax consultancy and compliance services understanding the diverse taxation systems and offer the best solutions in estimating various tax liabilities, paying them on due dates and filing tax returns quickly with zero hassle for the taxable persons",
-    route: "/Tax",
+    route: "/History",
   },
 
   {

@@ -15,7 +15,7 @@ class Cta extends Component {
                                     <div className="section-title both-border mb-30">
                                         <span className="title-tag">Get Know more about History</span>
                                     </div>
-                                    <Link to="/Tax" className="main-btn main-btn-3">Explore More</Link>
+                                    <Link to="/History" className="main-btn main-btn-3">Explore More</Link>
                                 </div>
                             </div>
                         </div>

@@ -97,12 +97,12 @@ class Footer extends Component {
                       <h4 className="widget-title">History</h4>
                       <ul>
                         <li>
-                          <Link to="/Secretarial">
+                          <Link to="/Founders">
                             Founders
                           </Link>
                         </li>
                         <li>
-                          <Link to="/Tax">How We Start</Link>
+                          <Link to="/History">How We Start</Link>
                         </li>
                         <li>
                           <Link to="/portfolio">Fund List</Link>

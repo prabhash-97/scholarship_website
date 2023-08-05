@@ -32,8 +32,8 @@ function App() {
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/portfoliodetail" component={Portfoliodetail} />
         <Route path="/service" component={Service} />
-        <Route path="/Tax" component={Tax} />
-        <Route path="/Secretarial" component={Secretarial} />
+        <Route path="/History" component={Tax} />
+        <Route path="/Founders" component={Secretarial} />
         <Route path="/Outsourcing" component={Outsourcing} />
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
