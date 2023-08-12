@@ -57,12 +57,12 @@ class Footer extends Component {
                         target="_blank"
                       >
                        <i className="fab fa-facebook-f" />
-                       <br/>
+                     &nbsp;
                     <Link>www.facebook.com/lankasishya</Link>
                       </a>
                       
                       <button type="submit" className="main-btn">
-                        <Link className="main-btn main-btn-3" to="/contact">Contact Us</Link>
+                        <Link to="/contact">Contact Us</Link>
                       </button>
                     </form>
                   </div>

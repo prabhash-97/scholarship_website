@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "../../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 
-import img2 from "../../../assets/img/banner/image_15.jpg";
+import img2 from "../../../assets/img/banner/image_131.jpg";
 import img3 from "../../../assets/img/banner/image_13.jpg";
 import img4 from "../../../assets/img/banner/04_Image.jpg";
 
@@ -19,14 +19,14 @@ const bannerslide = [
   },
   {
     img: img3,
-    title: "We focus on our student future",
+    title: "We Focus on Our Student Future",
     text: "More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",
   },
   {
     img: img4,
-    title: "Donate to charity",
+    title: "Donate to Charity",
     text: "More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",

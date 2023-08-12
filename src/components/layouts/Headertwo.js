@@ -4,7 +4,7 @@ import Navmenu from "./Navmenu";
 import OffCanvas from "./Offcanvas";
 import classNames from "classnames";
 
-import logo from "../../assets/img/logo_1.jpg";
+import logo from "../../assets/img/logo_2.jpg";
 
 class Headertwo extends Component {
   constructor(props) {
