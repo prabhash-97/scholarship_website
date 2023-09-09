@@ -11,22 +11,25 @@ import img4 from "../../../assets/img/banner/image_133.jpg";
 
 const bannerslide = [
   {
-    img: img2,
-    title: "Supportive & Trustworthy",
+    img: img4,
+    title: "SUCCESS IS THE BEST",
+    title1: "සීමාසහිත ලංකා ශිෂ්‍යාධාරය සමිතිය",
     text: " More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",
   },
   {
     img: img3,
-    title: "We Focus on Our Student Future",
+    title: "FOCUSING ON STUDENTS' FUTURE",
+    title1: "සීමාසහිත ලංකා ශිෂ්‍යාධාරය සමිතිය",
     text: "More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",
   },
   {
-    img: img4,
-    title: "Donate to Charity",
+    img: img2,
+    title: "DONATE TO CHARITY",
+    title1: "සීමාසහිත ලංකා ශිෂ්‍යාධාරය සමිතිය",
     text: "More than 100 years of experience helping students for future growth",
     btntext: "Get Started Now",
     btntext1: "Our Services",
@@ -90,6 +93,9 @@ class Banner extends Component {
                         <h1 data-animation="fadeInDown" data-delay="0.8s">
                           {item.title}
                         </h1>
+                        <h2 data-animation="fadeInDown" data-delay="0.8s" style={{ color:"white", backgroundColor: "rgba(200, 200, 200, 0.3)"}} >
+                          {item.title1}
+                        </h2>
                         <p data-animation="fadeInUp" data-delay="1s">
                           {item.text}{" "}
                         </p>
