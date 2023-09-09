@@ -23,43 +23,8 @@ export default function Contact() {
       <Header />
       <Breadcrumbs breadcrumb={{ pagename: "Contact Us" }} />
       <Content />
-      {/*<section className="client-section">
-                    <div className="container">
-                        <div className="client-slider section-gap line-top">
-                            <Client />
-                        </div>
-                    </div>
-                </section>*/}
       <Footer />
     </Fragment>
   );
 }
 
-// class Contact extends Component {
-//     render() {
-//         return (
-//             <Fragment>
-//                 <MetaTags>
-//                     <title>RMS | Contact Us</title>
-//                     <meta
-//                         name="description"
-//                         content="#"
-//                     />
-//                 </MetaTags>
-//                 <Header/>
-//                 <Breadcrumbs breadcrumb={{pagename:'Contact Us'}}/>
-//                 <Content/>
-//                 {/*<section className="client-section">
-//                     <div className="container">
-//                         <div className="client-slider section-gap line-top">
-//                             <Client />
-//                         </div>
-//                     </div>
-//                 </section>*/}
-//                 <Footer/>
-//             </Fragment>
-//         );
-//     }
-// }
-
-// export default Contact;

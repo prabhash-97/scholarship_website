@@ -23,43 +23,7 @@ export default function Projects() {
       <Header />
       <Breadcrumbs breadcrumb={{ pagename: "Projects" }} />
       <Content />
-      {/*<section className="client-section">
-            <div className="container">
-                <div className="client-slider section-gap">
-                    <Client />
-                </div>
-            </div>
-        </section>*/}
       <Footer />
     </Fragment>
   );
 }
-
-// class Faq extends Component {
-//     render() {
-//         return (
-//             <Fragment>
-//                 <MetaTags>
-//                     <title>RMS | FAQ's</title>
-//                     <meta
-//                         name="description"
-//                         content="#"
-//                     />
-//                 </MetaTags>
-//                 <Header />
-//                 <Breadcrumbs breadcrumb={{ pagename: "FAQ's" }} />
-//                 <Content />
-//                 {/*<section className="client-section">
-//                     <div className="container">
-//                         <div className="client-slider section-gap">
-//                             <Client />
-//                         </div>
-//                     </div>
-//                 </section>*/}
-//                 <Footer />
-//             </Fragment>
-//         );
-//     }
-// }
-
-// export default Faq;

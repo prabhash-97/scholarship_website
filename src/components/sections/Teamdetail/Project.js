@@ -39,9 +39,9 @@ class Project extends Component {
                                     <div className="thumb bg-img-c" style={{ backgroundImage: "url("+ item.img +")" }} />
                                 </div>
                                 <div className="project-desc text-center">
-                                    <h4><Link to="/portfoliodetail">{item.title}</Link></h4>
+                                    <h4><Link to="/events">{item.title}</Link></h4>
                                     <p>{item.text}</p>
-                                    <Link to="/portfoliodetail" className="project-link">
+                                    <Link to="/events" className="project-link">
                                         <i className="fal fa-long-arrow-right" />
                                     </Link>
                                 </div>

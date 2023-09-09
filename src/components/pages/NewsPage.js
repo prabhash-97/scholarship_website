@@ -22,43 +22,8 @@ export default function NewsPage() {
       <Header />
       <Breadcrumbs breadcrumb={{ pagename: "News" }} />
       <Content />
-      {/* <section className="client-section">
-            <div className="container">
-                <div className="client-slider section-gap">
-                    <Client />
-                </div>
-            </div>
-        </section> */}
       <Footer />
     </Fragment>
   );
 }
 
-// class Careers extends Component {
-//     render() {
-//         return (
-//             <Fragment>
-//                 <MetaTags>
-//                     <title>RMS | Careers</title>
-//                     <meta
-//                         name="description"
-//                         content="#"
-//                     />
-//                 </MetaTags>
-//                 <Header />
-//                 <Breadcrumbs breadcrumb={{ pagename: 'Careers' }} />
-//                 <Content />
-//                 {/* <section className="client-section">
-//                     <div className="container">
-//                         <div className="client-slider section-gap">
-//                             <Client />
-//                         </div>
-//                     </div>
-//                 </section> */}
-//                 <Footer />
-//             </Fragment>
-//         );
-//     }
-// }
-
-// export default Careers;

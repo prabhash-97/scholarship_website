@@ -87,7 +87,7 @@ const navigationmenu = [
             },
             {
                 id: 53,
-                link: '/portfoliodetail',
+                link: '/events',
                 linkText: 'Portfolio Details'
             },
         ]*/
@@ -144,7 +144,7 @@ const navigationmenu = [
   {
     id: 6,
     linkText: "Events",
-    link: "/portfoliodetail",
+    link: "/events",
   },
   { id: 8, linkText: "Contact", link: "/contact" },
 ];

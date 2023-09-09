@@ -108,7 +108,7 @@ class Footer extends Component {
                           <Link to="/portfolio">Fund List</Link>
                         </li>
                         <li>
-                          <Link to="/portfoliodetail">On Going Projects</Link>
+                          <Link to="/events">On Going Projects</Link>
                         </li>
                       </ul>
                     </div>

@@ -26,21 +26,6 @@ const serviceblock = [
     title: "Helping Students Focus on Learning",
     text: "Getting a scholarship that eases the burden of college will help you focus more while studying.",
   },
- /* {
-    icon: icon3,
-    title: "Software Development",
-    text: "Software development ensures smooth experience with less wait time for your clients and decreases your business expenses. Try Hike Point of sale today!",
-  },
-  {
-    icon: icon2,
-    title: "Digital Marketing",
-    text: "Developing a long-term and reliable marketing strategy will flourish and live a longer life with your customers. We are empowering brands with digital marketing.",
-  },
-  {
-    icon: icon1,
-    title: "Branding",
-    text: "Branding is one of the most crucial aspects of any business, large or small. An effective brand can give you a significant edge in today’s highly competitive market.",
-  },*/
 ];
 
 const serviceMain = [

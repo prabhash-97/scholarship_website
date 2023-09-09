@@ -22,43 +22,8 @@ export default function Service() {
       <Header />
       <Breadcrumbs breadcrumb={{ pagename: "Our Services" }} />
       <Content />
-      {/* <section className="client-section">
-                    <div className="container">
-                        <div className="client-slider section-gap line-top">
-                            <Client />
-                        </div>
-                    </div>
-                </section>*/}
       <Footer />
     </Fragment>
   );
 }
 
-// class Service extends Component {
-//     render() {
-//         return (
-//             <Fragment>
-//                 <MetaTags>
-//                     <title> RMS | Services</title>
-//                     <meta
-//                         name="description"
-//                         content="#"
-//                     />
-//                 </MetaTags>
-//                 <Header />
-//                 <Breadcrumbs breadcrumb={{ pagename: 'Services' }} />
-//                 <Content />
-//                {/* <section className="client-section">
-//                     <div className="container">
-//                         <div className="client-slider section-gap line-top">
-//                             <Client />
-//                         </div>
-//                     </div>
-//                 </section>*/}
-//                 <Footer />
-//             </Fragment>
-//         );
-//     }
-// }
-
-// export default Service;

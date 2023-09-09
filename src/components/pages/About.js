@@ -27,25 +27,3 @@ export default function About() {
     </Fragment>
   );
 }
-
-// class About extends Component {
-//     render() {
-//         return (
-//             <Fragment>
-//                 <MetaTags>
-//                     <title>RMS | About Us</title>
-//                     <meta
-//                         name="description"
-//                         content="#"
-//                     />
-//                 </MetaTags>
-//                 <Header />
-//                 <Breadcrumbs breadcrumb={{ pagename: 'About Us' }} />
-//                 <Content />
-//                 <Footer />
-//             </Fragment>
-//         );
-//     }
-// }
-
-// export default About;

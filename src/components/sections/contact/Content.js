@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
-import illustration from "../../../assets/img/illustration/image_07-removebg-preview.png";
+import illustration from "../../../assets/img/illustration/image_071.png";
 import form from "../../../assets/img/illustration/444.PNG";
 
 const Content = () => {

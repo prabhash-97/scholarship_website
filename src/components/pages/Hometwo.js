@@ -21,42 +21,8 @@ export default function Hometwo() {
       </MetaTags>
       <Header />
       <Content />
-      {/* <section className="client-section">
-            <div className="container">
-                <div className="client-slider section-gap">
-                    <Client />
-                </div>
-            </div>
-        </section>*/}
       <Footer />
     </Fragment>
   );
 }
 
-// class Hometwo extends Component {
-//     render() {
-//         return (
-//             <Fragment>
-//                 <MetaTags>
-//                     <title>Home</title>
-//                     <meta
-//                         name="description"
-//                         content="#"
-//                     />
-//                 </MetaTags>
-//                 <Header />
-//                 <Content />
-//                {/* <section className="client-section">
-//                     <div className="container">
-//                         <div className="client-slider section-gap">
-//                             <Client />
-//                         </div>
-//                     </div>
-//                 </section>*/}
-//                 <Footer />
-//             </Fragment>
-//         );
-//     }
-// }
-
-// export default Hometwo;

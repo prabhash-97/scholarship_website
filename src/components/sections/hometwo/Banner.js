@@ -6,8 +6,8 @@ import "../../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 import img2 from "../../../assets/img/banner/image_131.jpg";
-import img3 from "../../../assets/img/banner/image_13.jpg";
-import img4 from "../../../assets/img/banner/04_Image.jpg";
+import img3 from "../../../assets/img/banner/image_132.png";
+import img4 from "../../../assets/img/banner/image_133.jpg";
 
 const bannerslide = [
   {

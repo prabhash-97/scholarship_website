@@ -61,7 +61,6 @@ export default function Tax() {
                 </ul>
               </div>
             </div>
-            {/* Sidebar */}
             <div className="col-lg-4 col-md-8">
               <Sidebar />
             </div>

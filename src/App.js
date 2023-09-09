@@ -10,9 +10,6 @@ import Portfolio from "./components/pages/Portfolio";
 import Portfoliodetail from "./components/pages/Portfoliodetail";
 import Service from "./components/pages/Service";
 import Contact from "./components/pages/Contact";
-import Faq from "./components/pages/Projects";
-import Careers from "./components/pages/NewsPage";
-
 import "./assets/css/font-awesome.min.css";
 import "./assets/css/flaticon.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -30,7 +27,7 @@ function App() {
         <Route path="/" exact component={Hometwo} />
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/portfoliodetail" component={Portfoliodetail} />
+        <Route path="/events" component={Portfoliodetail} />
         <Route path="/service" component={Service} />
         <Route path="/History" component={Tax} />
         <Route path="/Founders" component={Secretarial} />

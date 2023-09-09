@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import img1 from "../../../assets/img/video-bg/image_11.jpg";
-import img2 from "../../../assets/img/video-bg/image_12.jpg";
-import img3 from "../../../assets/img/Capture.PNG";
+import img2 from "../../../assets/img/video-bg/image_121.jpg";
 
 class About extends Component {
   render() {

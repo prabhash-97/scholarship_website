@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Accordion, Card, Button } from 'react-bootstrap';
 
-import illustration from '../../../assets/img/illustration/side.png';
+import illustration from '../../../assets/img/illustration/side1.jpg';
 
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 let monthIndex = (new Date().getMonth());
