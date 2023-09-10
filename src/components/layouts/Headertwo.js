@@ -107,6 +107,11 @@ class Headertwo extends Component {
                     </a>
                   </li>
                 </ul>*/}
+                <ul>
+                  <li>
+                  <div id="google_translate_element"></div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
